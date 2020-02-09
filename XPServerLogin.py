@@ -1,7 +1,7 @@
 import os
 import time
 import ScannCreds
-scannIP = str(input("NetIP/Subnet :"))
+scannIP = str(input("NetIP/Subnet :")).lower()
 if scannIP == "y":
     print(ScannCreds.creds())
 else:
